@@ -24333,7 +24333,7 @@ d25151飽和亮紅*/
 /* 手機屏幕 */
 @media (max-width: 768px) {
     .responsive-video iframe {
-        width: 288px; /* 手機上的寬度 */
-        height: 162px; /* 保持16:9比例 */
+        width: 320px; /* 手機上的寬度 */
+        height: 180px; /* 保持16:9比例 */
     }
 }
