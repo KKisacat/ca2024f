@@ -24322,3 +24322,18 @@ img.mfp-img {
 /* f4f4f5白色
 b41b1b紅色
 d25151飽和亮紅*/
+
+/* 預設設定，適用於電腦屏幕 */
+.responsive-video iframe {
+    width: 560px;
+    height: 315px;
+    border: 0;
+}
+
+/* 手機屏幕 */
+@media (max-width: 768px) {
+    .responsive-video iframe {
+        width: 288px; /* 手機上的寬度 */
+        height: 162px; /* 保持16:9比例 */
+    }
+}
